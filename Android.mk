@@ -19,3 +19,11 @@ LOCAL_PATH := $(call my-dir)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif
+
+ifeq ($(TARGET_DEVICE),crespo4g)
+
+LOCAL_PATH := $(call my-dir)
+
+include $(call all-makefiles-under,$(LOCAL_PATH))
+
+endif
