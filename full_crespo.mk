@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.
 # Camera
 PRODUCT_PACKAGES := \
     Camera
+    
+# Stk
+PRODUCT_PACKAGES := \
+    Stk
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
