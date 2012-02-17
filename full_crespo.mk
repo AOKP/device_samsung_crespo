@@ -65,7 +65,7 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=soju BUILD_ID=IML74K BUILD_FINGERPR
 
 # Copy crespo specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/aokp/prebuilt/crespo/app/Thinkfree.apk:system/app/Thinkfree.apk \
+    vendor/aokp/prebuilt/crespo/Thinkfree.apk:system/app/Thinkfree.apk \
     vendor/aokp/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Inherit Face lock security blobs
