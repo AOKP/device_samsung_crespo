@@ -22,3 +22,6 @@
 
 # Use the parts that are common between all crespos
 include device/samsung/crespo/BoardConfigCommon.mk
+
+# kernel
+TARGET_PREBUILT_KERNEL := device/samsung/crespo/kernel
