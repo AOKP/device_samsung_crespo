@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Copyright (C) 2011 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +14,35 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-key 158   BACK              WAKE
-key 139   MENU              WAKE
-key 217   ASSIST            WAKE
-key 102   HOME              WAKE
+# 189904 = GRK39F
+# 299849 = IMM76D
+
+PRODUCT=soju
+DEVICE=crespo
+BUILD=299849
+VERSION=imm76d
+RADIOSRC=radio.xx.img
+BOOTLOADER=i9020xxkl1
+RADIO=i9020xxki1
+
+source ../../../common/generate-factory-images-common.sh
+
+PRODUCT=sojua
+DEVICE=crespo
+BUILD=299849
+VERSION=imm76d
+RADIOSRC=radio.uc.img
+BOOTLOADER=i9020xxkl1
+RADIO=i9020uckj1
+
+source ../../../common/generate-factory-images-common.sh
+
+PRODUCT=sojuk
+DEVICE=crespo
+BUILD=189904
+VERSION=grk39f
+RADIOSRC=radio.kr.img
+BOOTLOADER=i9020xxka3
+RADIO=m200krkc1
+
+source ../../../common/generate-factory-images-common.sh
